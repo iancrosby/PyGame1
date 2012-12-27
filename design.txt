@@ -1,0 +1,21 @@
+Design
+-Starmap view
+-Solar view
+-Battle view
+-Fleet view
+-Dialogue view
+
+Classes
+-Events
+-
+
+
+
+Implementation
+-Main loop iterates through sub-loops, 1 for each game screen
+
+Story 1
+-Distress call in next star system
+-Enter solar system, see distress call
+-Transport ship stripped by a military vessel, left with minimum life support
+-Option of how to help
