@@ -8,6 +8,12 @@ screen=pygame.display.set_mode(size)
 pygame.display.set_caption("Professor Craven's Cool Game")
 clock=pygame.time.Clock()
 
+black    = (   0,   0,   0)
+white    = ( 255, 255, 255)
+green    = (   0, 255,   0)
+red      = ( 255,   0,   0)
+
+
 # -------- Main Program Loop -----------
 while done==False:
     # ALL EVENT PROCESSING SHOULD GO BELOW THIS COMMENT
@@ -23,8 +29,10 @@ while done==False:
 
 
     # ALL CODE TO DRAW SHOULD GO BELOW THIS COMMENT
-
+    screen.fill(white)
+    pygame.draw.rect(screen,black,[20,20,250,100],2)
     # ALL CODE TO DRAW SHOULD GO ABOVE THIS COMMENT
 
+    pygame.display.flip()
     # Limit to 20 frames per second
     clock.tick(20)
