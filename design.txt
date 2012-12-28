@@ -1,18 +1,25 @@
 Design
 -Starmap view
--Solar view
+-Star view
 -Battle view
 -Fleet view
 -Dialogue view
 
 Classes
+-Game
+-Fleet
+-Stars
 -Events
--
+	-Dialogue events
+	-Battle events
+	-Can belong to star or be independent
 
 
 
 Implementation
 -Main loop iterates through sub-loops, 1 for each game screen
+
+
 
 Story 1
 -Distress call in next star system
